@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Houston-Open"
-  s.version      = "0.0.1.1"
+  s.version      = "0.0.2.1"
   s.summary      = "a Houston SDK for iOS."
 
   s.description  = <<-DESC

@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Houston-Open"
-  s.version      = "0.0.2.1"
+  s.version      = "0.0.3.1"
   s.summary      = "a Houston SDK for iOS."
 
   s.description  = <<-DESC
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "http://github.com/meili/HoustonSDK-iOS-Podspec.git", :tag => "#{s.version}" }
 
   s.source_files = "Houston-Open/Classes/**/*"
-  s.private_header_files = "Houston-Open/Classes/Private/*.h"
+  # s.private_header_files = "Houston-Open/Classes/Private/*.h"
 
   s.ios.vendored_libraries = 'libHouston-Open.a'
 
